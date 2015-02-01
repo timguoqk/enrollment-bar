@@ -1,0 +1,2082 @@
+{
+    "Medicine": {
+        "Graduate Total": 489,
+        "Professional Practice": 489,
+        "Interns and Residents": 1330,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 0,
+        "Doctorate": 0,
+        "Total Campus": 1819
+    },
+    "Dentistry": {
+        "Graduate Total": 352,
+        "Professional Practice": 352,
+        "Interns and Residents": 64,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 0,
+        "Doctorate": 0,
+        "Total Campus": 416
+    },
+    "Applied Mathematics": {
+        "Graduate Total": 0,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 443,
+        "Doctorate": 0,
+        "Total Campus": 443
+    },
+    "Linguistics": {
+        "Graduate Total": 38,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 131,
+        "Doctorate": 38,
+        "Total Campus": 169
+    },
+    "Materials Engineering": {
+        "Graduate Total": 0,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 127,
+        "Doctorate": 0,
+        "Total Campus": 127
+    },
+    "Geochemistry": {
+        "Graduate Total": 13,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 2,
+        "Undergraduate": 0,
+        "Doctorate": 11,
+        "Total Campus": 13
+    },
+    "Environmental Science": {
+        "Graduate Total": 0,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 237,
+        "Doctorate": 0,
+        "Total Campus": 237
+    },
+    "Urban and Regional Planning": {
+        "Graduate Total": 137,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 137,
+        "Academic Masters": 0,
+        "Undergraduate": 0,
+        "Doctorate": 0,
+        "Total Campus": 137
+    },
+    "Geology": {
+        "Graduate Total": 16,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 1,
+        "Undergraduate": 25,
+        "Doctorate": 15,
+        "Total Campus": 41
+    },
+    "International Development Studies": {
+        "Graduate Total": 0,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 260,
+        "Doctorate": 0,
+        "Total Campus": 260
+    },
+    "Latin": {
+        "Graduate Total": 0,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 1,
+        "Doctorate": 0,
+        "Total Campus": 1
+    },
+    "Global Studies": {
+        "Graduate Total": 0,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 135,
+        "Doctorate": 0,
+        "Total Campus": 135
+    },
+    "Theater and Performance Studies": {
+        "Graduate Total": 14,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 0,
+        "Doctorate": 14,
+        "Total Campus": 14
+    },
+    "Executive Master of Public Health": {
+        "Graduate Total": 50,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 50,
+        "Academic Masters": 0,
+        "Undergraduate": 0,
+        "Doctorate": 0,
+        "Total Campus": 50
+    },
+    "Nursing": {
+        "Graduate Total": 386,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 323,
+        "Academic Masters": 0,
+        "Undergraduate": 0,
+        "Doctorate": 63,
+        "Total Campus": 386
+    },
+    "Design | Media Arts": {
+        "Graduate Total": 18,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 18,
+        "Academic Masters": 0,
+        "Undergraduate": 161,
+        "Doctorate": 0,
+        "Total Campus": 179
+    },
+    "Computational and Systems Biology": {
+        "Graduate Total": 0,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 52,
+        "Doctorate": 0,
+        "Total Campus": 52
+    },
+    "Theater": {
+        "Graduate Total": 46,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 45,
+        "Academic Masters": 1,
+        "Undergraduate": 254,
+        "Doctorate": 0,
+        "Total Campus": 300
+    },
+    "World Arts and Cultures": {
+        "Graduate Total": 0,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 106,
+        "Doctorate": 0,
+        "Total Campus": 106
+    },
+    "Information Studies": {
+        "Graduate Total": 33,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 0,
+        "Doctorate": 33,
+        "Total Campus": 33
+    },
+    "Medicine-UCR/UCLA": {
+        "Graduate Total": 49,
+        "Professional Practice": 49,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 0,
+        "Doctorate": 0,
+        "Total Campus": 49
+    },
+    "Arabic": {
+        "Graduate Total": 0,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 15,
+        "Doctorate": 0,
+        "Total Campus": 15
+    },
+    "Art": {
+        "Graduate Total": 37,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 37,
+        "Academic Masters": 0,
+        "Undergraduate": 222,
+        "Doctorate": 0,
+        "Total Campus": 259
+    },
+    "Linguistics and Italian": {
+        "Graduate Total": 0,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 1,
+        "Doctorate": 0,
+        "Total Campus": 1
+    },
+    "Latin American Studies": {
+        "Graduate Total": 15,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 15,
+        "Undergraduate": 27,
+        "Doctorate": 0,
+        "Total Campus": 42
+    },
+    "Linguistics and Asian Languages and Cultures": {
+        "Graduate Total": 0,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 44,
+        "Doctorate": 0,
+        "Total Campus": 44
+    },
+    "Global Executive MBA for the Americas": {
+        "Graduate Total": 15,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 15,
+        "Academic Masters": 0,
+        "Undergraduate": 0,
+        "Doctorate": 0,
+        "Total Campus": 15
+    },
+    "Psychology": {
+        "Graduate Total": 184,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 1714,
+        "Doctorate": 184,
+        "Total Campus": 1898
+    },
+    "Conservation of Archaeological and Ethnographic Materials": {
+        "Graduate Total": 6,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 6,
+        "Undergraduate": 0,
+        "Doctorate": 0,
+        "Total Campus": 6
+    },
+    "Russian Language and Literature": {
+        "Graduate Total": 0,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 6,
+        "Doctorate": 0,
+        "Total Campus": 6
+    },
+    "Iranian Studies": {
+        "Graduate Total": 0,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 13,
+        "Doctorate": 0,
+        "Total Campus": 13
+    },
+    "Ethnomusicology": {
+        "Graduate Total": 34,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 86,
+        "Doctorate": 34,
+        "Total Campus": 120
+    },
+    "Civil Engineering": {
+        "Graduate Total": 139,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 76,
+        "Undergraduate": 310,
+        "Doctorate": 63,
+        "Total Campus": 449
+    },
+    "Comparative Literature": {
+        "Graduate Total": 34,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 51,
+        "Doctorate": 34,
+        "Total Campus": 85
+    },
+    "Medicine-Drew": {
+        "Graduate Total": 95,
+        "Professional Practice": 95,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 0,
+        "Doctorate": 0,
+        "Total Campus": 95
+    },
+    "Molecular and Medical Pharmacology": {
+        "Graduate Total": 51,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 0,
+        "Doctorate": 51,
+        "Total Campus": 51
+    },
+    "Nursing-Prelicensure": {
+        "Graduate Total": 0,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 193,
+        "Doctorate": 0,
+        "Total Campus": 193
+    },
+    "Anthropology": {
+        "Graduate Total": 78,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 691,
+        "Doctorate": 78,
+        "Total Campus": 769
+    },
+    "Human Genetics": {
+        "Graduate Total": 15,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 0,
+        "Doctorate": 15,
+        "Total Campus": 15
+    },
+    "Bioengineering": {
+        "Graduate Total": 181,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 29,
+        "Undergraduate": 268,
+        "Doctorate": 152,
+        "Total Campus": 449
+    },
+    "Linguistics and English": {
+        "Graduate Total": 0,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 3,
+        "Doctorate": 0,
+        "Total Campus": 3
+    },
+    "Undeclared - Engineering and Applied Science": {
+        "Graduate Total": 0,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 143,
+        "Doctorate": 0,
+        "Total Campus": 143
+    },
+    "Asian American Studies": {
+        "Graduate Total": 18,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 18,
+        "Undergraduate": 61,
+        "Doctorate": 0,
+        "Total Campus": 79
+    },
+    "Geophysics/Geophysics and Space Physics": {
+        "Graduate Total": 0,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 6,
+        "Doctorate": 0,
+        "Total Campus": 6
+    },
+    "Asian Studies": {
+        "Graduate Total": 0,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 77,
+        "Doctorate": 0,
+        "Total Campus": 77
+    },
+    "Ecology, Behavior and Evolution": {
+        "Graduate Total": 0,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 52,
+        "Doctorate": 0,
+        "Total Campus": 52
+    },
+    "Asian Religions": {
+        "Graduate Total": 0,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 1,
+        "Doctorate": 0,
+        "Total Campus": 1
+    },
+    "Environmental Health Sciences": {
+        "Graduate Total": 26,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 10,
+        "Undergraduate": 0,
+        "Doctorate": 16,
+        "Total Campus": 26
+    },
+    "French and Linguistics": {
+        "Graduate Total": 0,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 10,
+        "Doctorate": 0,
+        "Total Campus": 10
+    },
+    "Biochemistry": {
+        "Graduate Total": 0,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 1015,
+        "Doctorate": 0,
+        "Total Campus": 1015
+    },
+    "General Chemistry": {
+        "Graduate Total": 0,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 1,
+        "Doctorate": 0,
+        "Total Campus": 1
+    },
+    "Scandinavian": {
+        "Graduate Total": 1,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 1,
+        "Undergraduate": 0,
+        "Doctorate": 0,
+        "Total Campus": 1
+    },
+    "French": {
+        "Graduate Total": 0,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 39,
+        "Doctorate": 0,
+        "Total Campus": 39
+    },
+    "Asian Languages and Cultures": {
+        "Graduate Total": 51,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 0,
+        "Doctorate": 51,
+        "Total Campus": 51
+    },
+    "European Studies": {
+        "Graduate Total": 0,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 13,
+        "Doctorate": 0,
+        "Total Campus": 13
+    },
+    "Geography/Environmental Studies": {
+        "Graduate Total": 0,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 203,
+        "Doctorate": 0,
+        "Total Campus": 203
+    },
+    "Biophysics": {
+        "Graduate Total": 0,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 48,
+        "Doctorate": 0,
+        "Total Campus": 48
+    },
+    "Computer Science": {
+        "Graduate Total": 360,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 219,
+        "Undergraduate": 486,
+        "Doctorate": 141,
+        "Total Campus": 846
+    },
+    "Linguistics and French": {
+        "Graduate Total": 0,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 8,
+        "Doctorate": 0,
+        "Total Campus": 8
+    },
+    "Physiological Science": {
+        "Graduate Total": 24,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 24,
+        "Undergraduate": 886,
+        "Doctorate": 0,
+        "Total Campus": 910
+    },
+    "Film and Television": {
+        "Graduate Total": 234,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 186,
+        "Academic Masters": 15,
+        "Undergraduate": 78,
+        "Doctorate": 33,
+        "Total Campus": 312
+    },
+    "Microbiology, Immunology, and Molecular Genetics": {
+        "Graduate Total": 21,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 563,
+        "Doctorate": 21,
+        "Total Campus": 584
+    },
+    "Undeclared - Life Science": {
+        "Graduate Total": 0,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 439,
+        "Doctorate": 0,
+        "Total Campus": 439
+    },
+    "Management - Executive MBA": {
+        "Graduate Total": 143,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 143,
+        "Academic Masters": 0,
+        "Undergraduate": 0,
+        "Doctorate": 0,
+        "Total Campus": 143
+    },
+    "Applied Linguistics": {
+        "Graduate Total": 25,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 3,
+        "Undergraduate": 46,
+        "Doctorate": 22,
+        "Total Campus": 71
+    },
+    "Mathematics for Teaching": {
+        "Graduate Total": 0,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 58,
+        "Doctorate": 0,
+        "Total Campus": 58
+    },
+    "Limited": {
+        "Graduate Total": 0,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 6,
+        "Doctorate": 0,
+        "Total Campus": 6
+    },
+    "Law": {
+        "Graduate Total": 988,
+        "Professional Practice": 988,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 0,
+        "Doctorate": 0,
+        "Total Campus": 988
+    },
+    "Biological Chemistry": {
+        "Graduate Total": 21,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 4,
+        "Undergraduate": 0,
+        "Doctorate": 17,
+        "Total Campus": 21
+    },
+    "Social Welfare": {
+        "Graduate Total": 251,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 207,
+        "Academic Masters": 0,
+        "Undergraduate": 0,
+        "Doctorate": 44,
+        "Total Campus": 251
+    },
+    "Undeclared - Physical Science": {
+        "Graduate Total": 0,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 262,
+        "Doctorate": 0,
+        "Total Campus": 262
+    },
+    "Management - Fully Employed MBA": {
+        "Graduate Total": 919,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 919,
+        "Academic Masters": 0,
+        "Undergraduate": 0,
+        "Doctorate": 0,
+        "Total Campus": 919
+    },
+    "Classical Civilization": {
+        "Graduate Total": 0,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 35,
+        "Doctorate": 0,
+        "Total Campus": 35
+    },
+    "Linguistics and Computer Science": {
+        "Graduate Total": 0,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 62,
+        "Doctorate": 0,
+        "Total Campus": 62
+    },
+    "Geophysics/Applied Geophysics": {
+        "Graduate Total": 0,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 7,
+        "Doctorate": 0,
+        "Total Campus": 7
+    },
+    "Psychobiology": {
+        "Graduate Total": 0,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 1244,
+        "Doctorate": 0,
+        "Total Campus": 1244
+    },
+    "American Indian Studies": {
+        "Graduate Total": 8,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 8,
+        "Undergraduate": 11,
+        "Doctorate": 0,
+        "Total Campus": 19
+    },
+    "Marine Biology": {
+        "Graduate Total": 0,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 46,
+        "Doctorate": 0,
+        "Total Campus": 46
+    },
+    "Geophysics and Space Physics": {
+        "Graduate Total": 25,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 1,
+        "Undergraduate": 0,
+        "Doctorate": 24,
+        "Total Campus": 25
+    },
+    "Molecular Toxicology (IDP)": {
+        "Graduate Total": 13,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 0,
+        "Doctorate": 13,
+        "Total Campus": 13
+    },
+    "Mathematics/Atmospheric and Oceanic Sciences": {
+        "Graduate Total": 0,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 4,
+        "Doctorate": 0,
+        "Total Campus": 4
+    },
+    "Musicology": {
+        "Graduate Total": 30,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 0,
+        "Doctorate": 30,
+        "Total Campus": 30
+    },
+    "Financial Actuarial Mathematics": {
+        "Graduate Total": 0,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 202,
+        "Doctorate": 0,
+        "Total Campus": 202
+    },
+    "Dentistry (PPID)": {
+        "Graduate Total": 40,
+        "Professional Practice": 40,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 0,
+        "Doctorate": 0,
+        "Total Campus": 40
+    },
+    "Music History": {
+        "Graduate Total": 0,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 47,
+        "Doctorate": 0,
+        "Total Campus": 47
+    },
+    "Electrical Engineering": {
+        "Graduate Total": 487,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 273,
+        "Undergraduate": 684,
+        "Doctorate": 214,
+        "Total Campus": 1171
+    },
+    "Biomathematics": {
+        "Graduate Total": 12,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 0,
+        "Doctorate": 12,
+        "Total Campus": 12
+    },
+    "Spanish and Community and Culture": {
+        "Graduate Total": 0,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 26,
+        "Doctorate": 0,
+        "Total Campus": 26
+    },
+    "Jewish Studies": {
+        "Graduate Total": 0,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 6,
+        "Doctorate": 0,
+        "Total Campus": 6
+    },
+    "Human Biology and Society": {
+        "Graduate Total": 0,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 327,
+        "Doctorate": 0,
+        "Total Campus": 327
+    },
+    "Greek and Latin": {
+        "Graduate Total": 0,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 4,
+        "Doctorate": 0,
+        "Total Campus": 4
+    },
+    "Sociology": {
+        "Graduate Total": 113,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 1018,
+        "Doctorate": 113,
+        "Total Campus": 1131
+    },
+    "Architecture": {
+        "Graduate Total": 147,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 120,
+        "Academic Masters": 4,
+        "Undergraduate": 0,
+        "Doctorate": 23,
+        "Total Campus": 147
+    },
+    "Neuroscience": {
+        "Graduate Total": 81,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 0,
+        "Doctorate": 81,
+        "Total Campus": 81
+    },
+    "Germanic Languages": {
+        "Graduate Total": 12,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 0,
+        "Doctorate": 12,
+        "Total Campus": 12
+    },
+    "French and Francophone Studies": {
+        "Graduate Total": 21,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 0,
+        "Doctorate": 21,
+        "Total Campus": 21
+    },
+    "Business Economics": {
+        "Graduate Total": 0,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 1866,
+        "Doctorate": 0,
+        "Total Campus": 1866
+    },
+    "Neurobiology": {
+        "Graduate Total": 1,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 0,
+        "Doctorate": 1,
+        "Total Campus": 1
+    },
+    "Economics/International Studies Area": {
+        "Graduate Total": 0,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 1,
+        "Doctorate": 0,
+        "Total Campus": 1
+    },
+    "Cognitive Science": {
+        "Graduate Total": 0,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 180,
+        "Doctorate": 0,
+        "Total Campus": 180
+    },
+    "Epidemiology": {
+        "Graduate Total": 57,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 8,
+        "Undergraduate": 0,
+        "Doctorate": 49,
+        "Total Campus": 57
+    },
+    "African Studies": {
+        "Graduate Total": 8,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 8,
+        "Undergraduate": 0,
+        "Doctorate": 0,
+        "Total Campus": 8
+    },
+    "Near East Languages and Cultures": {
+        "Graduate Total": 44,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 4,
+        "Undergraduate": 0,
+        "Doctorate": 40,
+        "Total Campus": 44
+    },
+    "Molecular, Cellular, and Integrative Physiology": {
+        "Graduate Total": 74,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 0,
+        "Doctorate": 74,
+        "Total Campus": 74
+    },
+    "Classics": {
+        "Graduate Total": 26,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 0,
+        "Doctorate": 26,
+        "Total Campus": 26
+    },
+    "Global Executive MBA for Asia Pacific": {
+        "Graduate Total": 86,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 86,
+        "Academic Masters": 0,
+        "Undergraduate": 0,
+        "Doctorate": 0,
+        "Total Campus": 86
+    },
+    "Biology": {
+        "Graduate Total": 69,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 3,
+        "Undergraduate": 1762,
+        "Doctorate": 66,
+        "Total Campus": 1831
+    },
+    "Geography": {
+        "Graduate Total": 59,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 1,
+        "Undergraduate": 141,
+        "Doctorate": 58,
+        "Total Campus": 200
+    },
+    "Environmental Science and Engineering (IDP)": {
+        "Graduate Total": 21,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 0,
+        "Doctorate": 21,
+        "Total Campus": 21
+    },
+    "Russian Studies": {
+        "Graduate Total": 0,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 7,
+        "Doctorate": 0,
+        "Total Campus": 7
+    },
+    "Biochemistry and Molecular Biology": {
+        "Graduate Total": 63,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 0,
+        "Doctorate": 63,
+        "Total Campus": 63
+    },
+    "Individual Field - L and S": {
+        "Graduate Total": 0,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 1,
+        "Doctorate": 0,
+        "Total Campus": 1
+    },
+    "Earth and Environmental Science": {
+        "Graduate Total": 0,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 16,
+        "Doctorate": 0,
+        "Total Campus": 16
+    },
+    "Linguistics and Philosophy": {
+        "Graduate Total": 0,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 6,
+        "Doctorate": 0,
+        "Total Campus": 6
+    },
+    "Hispanic Languages and Literatures": {
+        "Graduate Total": 49,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 0,
+        "Doctorate": 49,
+        "Total Campus": 49
+    },
+    "Architecture - M.Arch.II": {
+        "Graduate Total": 57,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 57,
+        "Academic Masters": 0,
+        "Undergraduate": 0,
+        "Doctorate": 0,
+        "Total Campus": 57
+    },
+    "Health Policy and Management": {
+        "Graduate Total": 61,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 18,
+        "Undergraduate": 0,
+        "Doctorate": 43,
+        "Total Campus": 61
+    },
+    "Culture and Performance": {
+        "Graduate Total": 35,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 0,
+        "Doctorate": 35,
+        "Total Campus": 35
+    },
+    "Undeclared - Humanities": {
+        "Graduate Total": 0,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 332,
+        "Doctorate": 0,
+        "Total Campus": 332
+    },
+    "Aerospace Engineering": {
+        "Graduate Total": 52,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 17,
+        "Undergraduate": 176,
+        "Doctorate": 35,
+        "Total Campus": 228
+    },
+    "Spanish and Linguistics": {
+        "Graduate Total": 0,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 10,
+        "Doctorate": 0,
+        "Total Campus": 10
+    },
+    "Chinese": {
+        "Graduate Total": 0,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 29,
+        "Doctorate": 0,
+        "Total Campus": 29
+    },
+    "Chemistry/Materials Science": {
+        "Graduate Total": 0,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 71,
+        "Doctorate": 0,
+        "Total Campus": 71
+    },
+    "Chicana and Chicano Studies": {
+        "Graduate Total": 18,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 161,
+        "Doctorate": 18,
+        "Total Campus": 179
+    },
+    "Philosophy": {
+        "Graduate Total": 46,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 288,
+        "Doctorate": 46,
+        "Total Campus": 334
+    },
+    "Indo-European Studies": {
+        "Graduate Total": 15,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 0,
+        "Doctorate": 15,
+        "Total Campus": 15
+    },
+    "Undeclared - Social Science": {
+        "Graduate Total": 0,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 518,
+        "Doctorate": 0,
+        "Total Campus": 518
+    },
+    "Clinical Research": {
+        "Graduate Total": 21,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 21,
+        "Undergraduate": 0,
+        "Doctorate": 0,
+        "Total Campus": 21
+    },
+    "Linguistics and Spanish": {
+        "Graduate Total": 0,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 14,
+        "Doctorate": 0,
+        "Total Campus": 14
+    },
+    "Computer Science and Engineering": {
+        "Graduate Total": 0,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 242,
+        "Doctorate": 0,
+        "Total Campus": 242
+    },
+    "Law-Juridical Science": {
+        "Graduate Total": 5,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 0,
+        "Doctorate": 5,
+        "Total Campus": 5
+    },
+    "Italian": {
+        "Graduate Total": 13,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 11,
+        "Doctorate": 13,
+        "Total Campus": 24
+    },
+    "Communication Studies": {
+        "Graduate Total": 0,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 484,
+        "Doctorate": 0,
+        "Total Campus": 484
+    },
+    "Korean": {
+        "Graduate Total": 0,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 12,
+        "Doctorate": 0,
+        "Total Campus": 12
+    },
+    "Atmospheric and Oceanic Sciences": {
+        "Graduate Total": 46,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 3,
+        "Undergraduate": 0,
+        "Doctorate": 43,
+        "Total Campus": 46
+    },
+    "Materials Science and Engineering": {
+        "Graduate Total": 161,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 38,
+        "Undergraduate": 0,
+        "Doctorate": 123,
+        "Total Campus": 161
+    },
+    "Mathematics of Computation": {
+        "Graduate Total": 0,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 98,
+        "Doctorate": 0,
+        "Total Campus": 98
+    },
+    "Linguistics and Anthropology": {
+        "Graduate Total": 0,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 13,
+        "Doctorate": 0,
+        "Total Campus": 13
+    },
+    "Management": {
+        "Graduate Total": 67,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 1,
+        "Undergraduate": 0,
+        "Doctorate": 66,
+        "Total Campus": 67
+    },
+    "Geology/Engineering Geology": {
+        "Graduate Total": 0,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 17,
+        "Doctorate": 0,
+        "Total Campus": 17
+    },
+    "Oral Biology": {
+        "Graduate Total": 49,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 34,
+        "Undergraduate": 0,
+        "Doctorate": 15,
+        "Total Campus": 49
+    },
+    "Master of Public Health for Health Professionals": {
+        "Graduate Total": 31,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 31,
+        "Academic Masters": 0,
+        "Undergraduate": 0,
+        "Doctorate": 0,
+        "Total Campus": 31
+    },
+    "History": {
+        "Graduate Total": 156,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 773,
+        "Doctorate": 156,
+        "Total Campus": 929
+    },
+    "English": {
+        "Graduate Total": 105,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 817,
+        "Doctorate": 105,
+        "Total Campus": 922
+    },
+    "African and Middle Eastern Studies": {
+        "Graduate Total": 0,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 3,
+        "Doctorate": 0,
+        "Total Campus": 3
+    },
+    "Statistics": {
+        "Graduate Total": 72,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 22,
+        "Undergraduate": 233,
+        "Doctorate": 50,
+        "Total Campus": 305
+    },
+    "Cellular and Molecular Pathology": {
+        "Graduate Total": 15,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 0,
+        "Doctorate": 15,
+        "Total Campus": 15
+    },
+    "Linguistics and Psychology": {
+        "Graduate Total": 0,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 86,
+        "Doctorate": 0,
+        "Total Campus": 86
+    },
+    "Management-MBA": {
+        "Graduate Total": 707,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 707,
+        "Academic Masters": 0,
+        "Undergraduate": 0,
+        "Doctorate": 0,
+        "Total Campus": 707
+    },
+    "Central and East European Languages and Cultures": {
+        "Graduate Total": 0,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 3,
+        "Doctorate": 0,
+        "Total Campus": 3
+    },
+    "Molecular Biology": {
+        "Graduate Total": 91,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 0,
+        "Doctorate": 91,
+        "Total Campus": 91
+    },
+    "Chemical Engineering": {
+        "Graduate Total": 100,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 13,
+        "Undergraduate": 311,
+        "Doctorate": 87,
+        "Total Campus": 411
+    },
+    "Medicine-Prime": {
+        "Graduate Total": 92,
+        "Professional Practice": 92,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 0,
+        "Doctorate": 0,
+        "Total Campus": 92
+    },
+    "Bioinformatics": {
+        "Graduate Total": 30,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 0,
+        "Doctorate": 30,
+        "Total Campus": 30
+    },
+    "Architectural Studies": {
+        "Graduate Total": 0,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 51,
+        "Doctorate": 0,
+        "Total Campus": 51
+    },
+    "Dance": {
+        "Graduate Total": 9,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 9,
+        "Academic Masters": 0,
+        "Undergraduate": 107,
+        "Doctorate": 0,
+        "Total Campus": 116
+    },
+    "African American Studies": {
+        "Graduate Total": 6,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 6,
+        "Undergraduate": 26,
+        "Doctorate": 0,
+        "Total Campus": 32
+    },
+    "Italian and Special Fields": {
+        "Graduate Total": 0,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 8,
+        "Doctorate": 0,
+        "Total Campus": 8
+    },
+    "Astronomy": {
+        "Graduate Total": 28,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 0,
+        "Doctorate": 28,
+        "Total Campus": 28
+    },
+    "Community Health Sciences": {
+        "Graduate Total": 56,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 8,
+        "Undergraduate": 0,
+        "Doctorate": 48,
+        "Total Campus": 56
+    },
+    "Archeology": {
+        "Graduate Total": 34,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 0,
+        "Doctorate": 34,
+        "Total Campus": 34
+    },
+    "East Asian Studies": {
+        "Graduate Total": 14,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 14,
+        "Undergraduate": 0,
+        "Doctorate": 0,
+        "Total Campus": 14
+    },
+    "Public Policy": {
+        "Graduate Total": 123,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 123,
+        "Academic Masters": 0,
+        "Undergraduate": 0,
+        "Doctorate": 0,
+        "Total Campus": 123
+    },
+    "Art History": {
+        "Graduate Total": 44,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 182,
+        "Doctorate": 44,
+        "Total Campus": 226
+    },
+    "German": {
+        "Graduate Total": 0,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 6,
+        "Doctorate": 0,
+        "Total Campus": 6
+    },
+    "Slavic Languages and Literatures": {
+        "Graduate Total": 11,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 0,
+        "Doctorate": 11,
+        "Total Campus": 11
+    },
+    "Economics": {
+        "Graduate Total": 129,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 1254,
+        "Doctorate": 129,
+        "Total Campus": 1383
+    },
+    "Education (Leadership)": {
+        "Graduate Total": 94,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 0,
+        "Doctorate": 94,
+        "Total Campus": 94
+    },
+    "Political Science": {
+        "Graduate Total": 113,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 1642,
+        "Doctorate": 113,
+        "Total Campus": 1755
+    },
+    "Library and Information Science": {
+        "Graduate Total": 86,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 86,
+        "Academic Masters": 0,
+        "Undergraduate": 0,
+        "Doctorate": 0,
+        "Total Campus": 86
+    },
+    "Public Health": {
+        "Graduate Total": 255,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 241,
+        "Academic Masters": 0,
+        "Undergraduate": 0,
+        "Doctorate": 14,
+        "Total Campus": 255
+    },
+    "Mechanical Engineering": {
+        "Graduate Total": 246,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 105,
+        "Undergraduate": 414,
+        "Doctorate": 141,
+        "Total Campus": 660
+    },
+    "Special Education (Joint with CSU-LA)": {
+        "Graduate Total": 14,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 0,
+        "Doctorate": 14,
+        "Total Campus": 14
+    },
+    "Spanish": {
+        "Graduate Total": 5,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 5,
+        "Undergraduate": 100,
+        "Doctorate": 0,
+        "Total Campus": 105
+    },
+    "Mathematics/Economics": {
+        "Graduate Total": 0,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 392,
+        "Doctorate": 0,
+        "Total Campus": 392
+    },
+    "Gender Studies": {
+        "Graduate Total": 22,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 184,
+        "Doctorate": 22,
+        "Total Campus": 206
+    },
+    "Mathematics/Applied Science": {
+        "Graduate Total": 0,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 144,
+        "Doctorate": 0,
+        "Total Campus": 144
+    },
+    "Scandinavian Languages and Cultures": {
+        "Graduate Total": 0,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 2,
+        "Doctorate": 0,
+        "Total Campus": 2
+    },
+    "Portuguese": {
+        "Graduate Total": 1,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 1,
+        "Undergraduate": 6,
+        "Doctorate": 0,
+        "Total Campus": 7
+    },
+    "Atmospheric, Oceanic and Environmental Sciences": {
+        "Graduate Total": 0,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 43,
+        "Doctorate": 0,
+        "Total Campus": 43
+    },
+    "Physics": {
+        "Graduate Total": 158,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 330,
+        "Doctorate": 158,
+        "Total Campus": 488
+    },
+    "Moving Image Archive Studies (IDP)": {
+        "Graduate Total": 18,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 18,
+        "Undergraduate": 0,
+        "Doctorate": 0,
+        "Total Campus": 18
+    },
+    "American Literature and Culture": {
+        "Graduate Total": 0,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 59,
+        "Doctorate": 0,
+        "Total Campus": 59
+    },
+    "Japanese": {
+        "Graduate Total": 0,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 79,
+        "Doctorate": 0,
+        "Total Campus": 79
+    },
+    "Linguistics and Scandinavian Languages": {
+        "Graduate Total": 0,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 2,
+        "Doctorate": 0,
+        "Total Campus": 2
+    },
+    "Chemistry": {
+        "Graduate Total": 201,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 380,
+        "Doctorate": 201,
+        "Total Campus": 581
+    },
+    "Ancient Near East and Egyptology": {
+        "Graduate Total": 0,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 3,
+        "Doctorate": 0,
+        "Total Campus": 3
+    },
+    "Study of Religion": {
+        "Graduate Total": 0,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 26,
+        "Doctorate": 0,
+        "Total Campus": 26
+    },
+    "Astrophysics": {
+        "Graduate Total": 0,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 98,
+        "Doctorate": 0,
+        "Total Campus": 98
+    },
+    "Financial Engineering": {
+        "Graduate Total": 112,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 112,
+        "Academic Masters": 0,
+        "Undergraduate": 0,
+        "Doctorate": 0,
+        "Total Campus": 112
+    },
+    "Engineering - Online M.S.": {
+        "Graduate Total": 202,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 202,
+        "Undergraduate": 0,
+        "Doctorate": 0,
+        "Total Campus": 202
+    },
+    "Mathematics": {
+        "Graduate Total": 147,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 262,
+        "Doctorate": 147,
+        "Total Campus": 409
+    },
+    "Molecular, Cell, and Developmental Biology": {
+        "Graduate Total": 23,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 535,
+        "Doctorate": 23,
+        "Total Campus": 558
+    },
+    "Physics-BA Degree": {
+        "Graduate Total": 0,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 5,
+        "Doctorate": 0,
+        "Total Campus": 5
+    },
+    "Music": {
+        "Graduate Total": 89,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 50,
+        "Academic Masters": 0,
+        "Undergraduate": 176,
+        "Doctorate": 39,
+        "Total Campus": 265
+    },
+    "Biomedical Physics": {
+        "Graduate Total": 34,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 0,
+        "Doctorate": 34,
+        "Total Campus": 34
+    },
+    "Islamic Studies": {
+        "Graduate Total": 13,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 5,
+        "Undergraduate": 0,
+        "Doctorate": 8,
+        "Total Campus": 13
+    },
+    "Individual Field of Concentration (AA)": {
+        "Graduate Total": 0,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 1,
+        "Doctorate": 0,
+        "Total Campus": 1
+    },
+    "Geology/Paleobiology": {
+        "Graduate Total": 0,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 5,
+        "Doctorate": 0,
+        "Total Campus": 5
+    },
+    "Asian Humanities": {
+        "Graduate Total": 0,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 30,
+        "Doctorate": 0,
+        "Total Campus": 30
+    },
+    "Afro-American Studies": {
+        "Graduate Total": 7,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 7,
+        "Undergraduate": 41,
+        "Doctorate": 0,
+        "Total Campus": 48
+    },
+    "Spanish and Portuguese": {
+        "Graduate Total": 0,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 11,
+        "Doctorate": 0,
+        "Total Campus": 11
+    },
+    "Undeclared": {
+        "Graduate Total": 0,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 146,
+        "Doctorate": 0,
+        "Total Campus": 146
+    },
+    "Urban Planning": {
+        "Graduate Total": 33,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 0,
+        "Doctorate": 33,
+        "Total Campus": 33
+    },
+    "Law-LLM": {
+        "Graduate Total": 159,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 159,
+        "Academic Masters": 0,
+        "Undergraduate": 0,
+        "Doctorate": 0,
+        "Total Campus": 159
+    },
+    "Middle Eastern Studies": {
+        "Graduate Total": 0,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 0,
+        "Undergraduate": 15,
+        "Doctorate": 0,
+        "Total Campus": 15
+    },
+    "Education": {
+        "Graduate Total": 580,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 247,
+        "Academic Masters": 81,
+        "Undergraduate": 0,
+        "Doctorate": 252,
+        "Total Campus": 580
+    },
+    "Biostatistics": {
+        "Graduate Total": 48,
+        "Professional Practice": 0,
+        "Interns and Residents": 0,
+        "Professional Masters": 0,
+        "Academic Masters": 23,
+        "Undergraduate": 0,
+        "Doctorate": 25,
+        "Total Campus": 48
+    }
+}
