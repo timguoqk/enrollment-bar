@@ -1,0 +1,6 @@
+div.bar {
+    display: inline-block;
+    width: 20px;
+    background-color: teal;
+    margin-left: 2px;
+}
