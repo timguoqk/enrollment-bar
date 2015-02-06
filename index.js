@@ -10,6 +10,7 @@ $(function() {
 });
 
 function initChart() {
+	// http://bl.ocks.org/mbostock/3885705
 	var dict = rawData['Computer Science'];
 	var labels = _.keys(dict);
 	var values = _.values(dict);
