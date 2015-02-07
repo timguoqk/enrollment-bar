@@ -33,12 +33,12 @@ function plotChart(key) {
   y.domain([0, d3.max(values)]);
 
   svg.append("g")
-      .attr("class", "x-axis axis")
+      .attr("class", "x axis")
       .attr("transform", "translate(0," + height + ")")
       .call(xAxis);
 
   svg.append("g")
-      .attr("class", "y-axis axis")
+      .attr("class", "y axis")
       .call(yAxis)
     .append("text")
       .attr("transform", "rotate(-90)")
@@ -56,7 +56,10 @@ function plotChart(key) {
       })
       .attr("width", x.rangeBand())
       .attr("y", function(d) { return y(data[d]); })
-      .attr("height", function(d) { return height - y(data[d]);});
+      .attr("height", function(d) { return height - y(data[d]);})
+      .attr("fill", function(d) {
+      	return randomColor();
+      });
 }
 
 // function initChart() {
