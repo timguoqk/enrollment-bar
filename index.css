@@ -24,3 +24,11 @@ body {
 .x.axis path {
   display: none;
 }
+
+#major-select {
+	width: 100%;
+}
+
+.select2-selection {
+	overflow: hidden;
+}

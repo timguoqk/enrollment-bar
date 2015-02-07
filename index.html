@@ -4,33 +4,35 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.7.0/underscore-min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.7.0/underscore-min.js"></script>
 	<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
-	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-	<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.8.1/semantic.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/select2/4.0.0-beta.3/js/select2.min.js"></script>
+	<link href="http://cdnjs.cloudflare.com/ajax/libs/select2/4.0.0-beta.3/css/select2.min.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.8.1/semantic.min.css" rel="stylesheet">
 	<script src="index.js"></script>
 	<script src="randomColor.js"></script>
-	<link rel="stylesheet" href="index.css">
+	<script src="d3.tip.js"></script>
+	<link rel="stylesheet" href="index.css" rel="stylesheet">
 
 	<title>Enrollement Bar Chart</title>
 </head>
 <body>
 	<h1>UCLA Enrollment Bar Chart</h1>
-	<div class="container">
-		<h2 id="major-title">Computer Science</h2>
-		<div class="row">
-			<div class="col-md-9">
-				<div id="chart"></div>
-			</div>
-			<div class="col-md-3">
+	<div class="ui grid">
+		<div class="centered row">
+			<h2 id="major-title">Computer Science</h2>
+		</div>
+		<div class="centered row">
+			<div class="twelve wide column"><div id="chart"></div></div>
+			<div class="three wide column">
 				<div class="panel panel-default">
 					<div class="panel-heading">
 						<div class="panel-title">Choose the major</div>
 					</div>
 					<div class="panel-body">
-						<div class="btn btn-primary" onClick="clickButton()">Random major</div>
+						<p><div class="ui teal button" onClick="clickButton()">Random major</div></p>
+						<p><select class="dropdown" id="major-select"></select></p>
 					</div>
-					<div class="panel-footer">Well, you don't have a choice. Have fun playing with the random button.</div>
-				</div>
-				
+				</div>		
 			</div>
 		</div>
 	</div>
