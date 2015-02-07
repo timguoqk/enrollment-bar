@@ -12,18 +12,20 @@ $(function() {
 			var majors = _.keys(rawData);
 			for (i = 0; i < majors.length; i ++)
 				dict.push({id:majors[i], text:majors[i]});
+			dict = _.sortBy(dict, function(x) {  return x.id;  });
 			$("select#major-select").select2({data: dict});
-			$("select#major-select").on("select2:select", function (e) {  changeTo(e.params.data.id);}  );
+			$("select#major-select").on("select2:select", function (e) {  majorChangeTo(e.params.data.id);}  );
 
 			// TODO: find an elegant solution
 			x = d3.scale.ordinal().rangeRoundBands([0, width], .1).domain(keys);
 			//y = d3.scale.linear().range([height, 0]).domain([0, 1898]);
 			y = d3.scale.linear().range([height, 0]).domain([0, 1000]);  // 1898 is simply too big...
-			plotChart('Computer Science');
+			plotChartMajor('Computer Science');
+			//_.delay(1000, 'plotChartCrossMajor');  # TODO: uncomment after finishing up
 	});
 });
 
-function plotChart(key) {
+function plotChartMajor(key) {
 
 	data = rawData[key];  // TODO: handle KeyError
 	var values = _.values(data);  // TODO: redesign data structure
@@ -31,7 +33,7 @@ function plotChart(key) {
 	xAxis = d3.svg.axis().scale(x).orient("bottom");
 	yAxis = d3.svg.axis().scale(y).orient("left");
 
-	svg = d3.select("#chart").append("svg")
+	svg = d3.select("#chart-major").append("svg")
 	    .attr("width", width + margin.left + margin.right)
 	    .attr("height", height + margin.top + margin.bottom)
 	  .append("g")
@@ -77,13 +79,13 @@ function plotChart(key) {
       .on("mouseout", tip.hide);
 }
 
-function clickButton() {
+function majorRandom() {
 	var majors = _.keys(rawData);
 	var key = majors[_.random(0, majors.length - 1)];
-	changeTo(key);
+	majorChangeTo(key);
 }
 
-function changeTo(key) {
+function majorChangeTo(key) {
 	$('#major-title').text(key);
 	data = rawData[key];  // TODO: handle KeyError
 	// http://bl.ocks.org/mbostock/3885705
@@ -100,4 +102,59 @@ function changeTo(key) {
   		.transition().duration(400)
 			.ease("sin-in-out") 
 			.call(yAxis);
+}
+
+function plotChartCrossMajor() {
+
+	// data = rawData[key];
+	// var values = _.values(data);
+	// Get only the total number
+
+	xAxis = d3.svg.axis().scale(x).orient("bottom");
+	yAxis = d3.svg.axis().scale(y).orient("left");
+
+	svg = d3.select("#chart-cross-majors").append("svg")
+	    .attr("width", width + margin.left + margin.right)
+	    .attr("height", height + margin.top + margin.bottom)
+	  .append("g")
+	    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+	var tip = d3.tip()
+							.attr("class", "tooltip")
+							.offset([-10, 0])
+							.html(function(d) {
+								return "<span>" + data[d] + "</span>";
+							});
+	svg.call(tip);
+
+  svg.append("g")
+      .attr("class", "x axis")
+      .attr("transform", "translate(0," + height + ")")
+      .call(xAxis);
+
+  svg.append("g")
+      .attr("class", "y axis")
+      .call(yAxis)
+    .append("text")
+      .attr("transform", "rotate(-90)")
+      .attr("y", 6)
+      .attr("dy", ".71em")
+      .style("text-anchor", "end")
+      .text("Students");
+  svg.selectAll(".bar")
+      .data(keys)
+    .enter().append("rect")
+      .attr("class", "bar fill-aqua")
+      .attr("x", function(d) { 
+      	return x(d); 
+      })
+      .attr("width", x.rangeBand())
+      .attr("y", function(d) { return y(data[d]); })
+      .attr("height", function(d) { return height - y(data[d]);})
+      .attr("fill", function(d) {
+      	return "hsla(177,100%," + (50 - data[d]/50) + "%,1)";
+      	//return randomColor({luminosity: 'light'});
+      })
+      .on("mouseover", tip.show)
+      .on("mouseout", tip.hide);
 }

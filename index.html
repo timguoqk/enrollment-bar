@@ -18,22 +18,21 @@
 <body>
 	<h1>UCLA Enrollment Bar Chart</h1>
 	<div class="ui grid">
+		<div class="ui horizontal divider" id="major-title">Computer Science</div>
 		<div class="centered row">
-			<h2 id="major-title">Computer Science</h2>
-		</div>
-		<div class="centered row">
-			<div class="twelve wide column"><div id="chart"></div></div>
+			<div class="twelve wide column"><div id="chart-major"></div></div>
 			<div class="three wide column">
-				<div class="panel panel-default">
-					<div class="panel-heading">
-						<div class="panel-title">Choose the major</div>
-					</div>
-					<div class="panel-body">
-						<p><div class="ui teal button" onClick="clickButton()">Random major</div></p>
-						<p><select class="dropdown" id="major-select"></select></p>
-					</div>
+				<div class="ui center aligned segment">
+					<div class="ui header"><div class="content">Choose the major</div></div>
+					<p><select class="dropdown" id="major-select"></select></p>
+					<div class="ui horizontal divider">or</div>
+					<p><div class="ui teal button" onClick="majorRandom()">Random major</div></p>
 				</div>		
 			</div>
+		</div>
+		<div class="ui horizontal divider">Cross-major comparision</div>
+		<div class="centered row">
+			<div id="chart-cross-majors"></div>
 		</div>
 	</div>
 </body>
