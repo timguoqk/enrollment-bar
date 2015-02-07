@@ -1,14 +1,11 @@
-div.bar {
-    display: inline-block;
-    width: 20px;
-    background-color: teal;
-    margin-left: 2px;
+#chart .bar {
+
 }
 
 .axis path,
 .axis line {
     fill: none;
-    stroke: black;
+    stroke: #7FDBFF;
     shape-rendering: crispEdges;
 }
 
