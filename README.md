@@ -1,3 +1,4 @@
 # enrollement-bar
 
-Barcharts of UCLA enrollment data.
+Bar charts of UCLA enrollment data.
+A stable version is available at timguoqk.info/bar.
