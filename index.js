@@ -1,6 +1,6 @@
 var rawData, data, ev;
 var keys = ["Graduate Total", "Professional Practice", "Interns and Residents", "Professional Masters", "Academic Masters", "Undergraduate", "Doctorate", "Total Campus"];
-var svg, x, y, xAxis, yAxis;
+var svg, x, y, colorScale, xAxis, yAxis;
 var margin = {top: 20, right: 30, bottom: 30, left: 40};
 var width = 900 - margin.left - margin.right;
 var height = 400 - margin.top - margin.bottom;
@@ -19,7 +19,9 @@ $(function() {
 			// TODO: find an elegant solution
 			x = d3.scale.ordinal().rangeRoundBands([0, width], .1).domain(keys);
 			//y = d3.scale.linear().range([height, 0]).domain([0, 1898]);
-			y = d3.scale.linear().range([height, 0]).domain([0, 1000]);  // 1898 is simply too big...
+			y = d3.scale.linear().range([height, 0]);
+			colorScale = d3.scale.linear().range([45, 15]).domain([0, 1898]);  // 1898 is simply too big...
+
 			plotChartMajor('Computer Science');
 			//_.delay(1000, 'plotChartCrossMajor');  # TODO: uncomment after finishing up
 	});
@@ -30,6 +32,7 @@ function plotChartMajor(key) {
 	data = rawData[key];  // TODO: handle KeyError
 	var values = _.values(data);  // TODO: redesign data structure
 
+	y.domain([0, d3.max(_.values(data))])
 	xAxis = d3.svg.axis().scale(x).orient("bottom");
 	yAxis = d3.svg.axis().scale(y).orient("left");
 
@@ -72,7 +75,7 @@ function plotChartMajor(key) {
       .attr("y", function(d) { return y(data[d]); })
       .attr("height", function(d) { return height - y(data[d]);})
       .attr("fill", function(d) {
-      	return "hsla(177,100%," + (50 - data[d]/50) + "%,1)";
+      	return "hsla(177,100%," + colorScale(data[d]) + "%,1)";
       	//return randomColor({luminosity: 'light'});
       })
       .on("mouseover", tip.show)
@@ -95,7 +98,7 @@ function majorChangeTo(key) {
 						.attr("y", function(d) { return y(data[d]); })
       			.attr("height", function(d) { return height - y(data[d]);})
       			.attr("fill", function(d) {
-      				return "hsla(177,100%," + (52 - data[d]/20) + "%,1)";
+      				return "hsla(177,100%," + colorScale(data[d]) + "%,1)";
       				//return randomColor({luminosity: 'light'});
       			});
   svg.select(".y.axis")
@@ -123,7 +126,7 @@ function plotChartCrossMajor() {
 							.attr("class", "tooltip")
 							.offset([-10, 0])
 							.html(function(d) {
-								return "<span>" + data[d] + "</span>";
+								return "<span class=\"tooltip\">" + data[d] + "</span>";
 							});
 	svg.call(tip);
 
@@ -152,7 +155,7 @@ function plotChartCrossMajor() {
       .attr("y", function(d) { return y(data[d]); })
       .attr("height", function(d) { return height - y(data[d]);})
       .attr("fill", function(d) {
-      	return "hsla(177,100%," + (50 - data[d]/50) + "%,1)";
+      	return "hsla(177,100%," + colorScale(data[d]) + "%,1)";
       	//return randomColor({luminosity: 'light'});
       })
       .on("mouseover", tip.show)
