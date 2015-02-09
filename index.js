@@ -21,7 +21,7 @@ $(function() {
 			y = d3.scale.linear().range([height, 0]);
 			colorScale = d3.scale.linear().range([45, 15]).domain([0, 1898]);  // 1898 is simply too big...
 
-			plotChartMajor('Computer Science');
+			plotChartMajor('Aerospace Engineering');
 			plotChartCrossMajor();
 	});
 });
@@ -142,7 +142,7 @@ function plotChartCrossMajor() {
 				      .attr("y", 6)
 				      .attr("dy", ".71em")
 				      .style("text-anchor", "end")
-				      .text("Students");
+				      .text("Total Students");
 
   crossMajorSvg.selectAll(".bar")
 				      .data(majors)
