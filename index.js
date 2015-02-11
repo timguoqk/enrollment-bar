@@ -148,13 +148,18 @@ function plotChartCrossMajor() {
 								return x(d); 
 							})
 							.attr("width", x.rangeBand())
-							.attr("y", function(d) { 
-								return y(rawData[d]['Total Campus']); })
-							.attr("height", function(d) { 
-								return height - y(rawData[d]['Total Campus']); })
-							.attr("fill", function(d) {
-								return "hsla(177,100%," + colorScale(rawData[d]['Total Campus']) + "%,1)";
-							})
+							.attr("y", height)
+							.attr("height", 0)
 							.on("mouseover", tip.show)
 							.on("mouseout", tip.hide);
+
+	var transition = crossMajorSvg.transition().duration(2500);
+	transition.selectAll(".bar")
+						.attr("y", function(d) { 
+							return y(rawData[d]['Total Campus']); })
+						.attr("height", function(d) { 
+							return height - y(rawData[d]['Total Campus']); })
+						.attr("fill", function(d) {
+							return "hsla(177,100%," + colorScale(rawData[d]['Total Campus']) + "%,1)";
+						});
 }
