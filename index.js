@@ -4,9 +4,15 @@ var svg, x, y, colorScale, xAxis, yAxis;
 var margin = {top: 20, right: 30, bottom: 30, left: 40};
 var width = 900 - margin.left - margin.right;
 var height = 400 - margin.top - margin.bottom;
+var crossMajorPlotted = false;
 
 $(function() {
-	$('#main-container').onepage_scroll();
+	$('#main-container').onepage_scroll({beforeMove: function(index) {
+		if (index == 2 && !crossMajorPlotted) {
+			crossMajorPlotted = true;
+			plotChartCrossMajor();
+		}
+	}});
 	$.getJSON('ucla_enrollment.json', function(data) {
 			rawData = data;
 			dict = []
@@ -23,7 +29,6 @@ $(function() {
 			colorScale = d3.scale.linear().range([45, 15]).domain([0, 1898]);  // 1898 is simply too big...
 
 			plotChartMajor('Aerospace Engineering');
-			plotChartCrossMajor();
 	});
 });
 
