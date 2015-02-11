@@ -6,6 +6,7 @@ var width = 900 - margin.left - margin.right;
 var height = 400 - margin.top - margin.bottom;
 
 $(function() {
+	$('#main-container').onepage_scroll();
 	$.getJSON('ucla_enrollment.json', function(data) {
 			rawData = data;
 			dict = []
@@ -75,7 +76,6 @@ function plotChartMajor(key) {
 			.attr("height", function(d) { return height - y(data[d]);})
 			.attr("fill", function(d) {
 				return "hsla(177,100%," + colorScale(data[d]) + "%,1)";
-				//return randomColor({luminosity: 'light'});
 			})
 			.on("mouseover", tip.show)
 			.on("mouseout", tip.hide);
@@ -88,7 +88,7 @@ function majorRandom() {
 
 function majorChangeTo(key) {
 	$('#major-title').text(key);
-	data = rawData[key];  // TODO: handle KeyError
+	data = rawData[key];
 	// http://bl.ocks.org/mbostock/3885705
 	y.domain([0, d3.max(_.values(data))])
 	var transition = svg.transition().duration(400);  // TODO: customize delay
@@ -126,7 +126,7 @@ function plotChartCrossMajor() {
 							.attr("class", "tooltip")
 							.offset([-10, 0])
 							.html(function(d) {
-								return "<span class=\"tooltip\">" + d + ":" + rawData[d]['Total Campus'] + "</span>";
+								return "<span class=\"tooltip\">" + d + ": " + rawData[d]['Total Campus'] + "</span>";
 							});
 	crossMajorSvg.call(tip);
 

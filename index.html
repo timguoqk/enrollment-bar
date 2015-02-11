@@ -9,30 +9,42 @@
 	<link href="http://cdnjs.cloudflare.com/ajax/libs/select2/4.0.0-beta.3/css/select2.min.css" rel="stylesheet">
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.8.1/semantic.min.css" rel="stylesheet">
 	<script src="index.js"></script>
-	<script src="randomColor.js"></script>
+	<script src="jquery.onepage-scroll.min.js"></script>
 	<script src="d3.tip.js"></script>
-	<link rel="stylesheet" href="index.css" rel="stylesheet">
+	<link rel="stylesheet" href="onepage-scroll.css">
+	<link rel="stylesheet" href="index.css">
 
 	<title>Enrollement Bar Chart</title>
 </head>
 <body>
 	<h1>UCLA Enrollment Bar Chart</h1>
-	<div class="ui grid">
-		<div class="ui horizontal divider" id="major-title">Aerospace Engineering</div>
-		<div class="centered row">
-			<div class="twelve wide column"><div id="chart-major"></div></div>
-			<div class="three wide column">
-				<div class="ui center aligned segment">
-					<div class="ui header"><div class="content">Choose the major</div></div>
-					<p><select class="dropdown" id="major-select"></select></p>
-					<div class="ui horizontal divider">or</div>
-					<p><div class="ui teal button" onClick="majorRandom()">Random major</div></p>
-				</div>		
+	<div id="main-container">
+		<section>
+			<div class="ui horizontal divider" id="major-title">Aerospace Engineering</div>
+			<div class="ui grid">
+				<div class="centered row">
+					<div class="twelve wide column"><div id="chart-major"></div></div>
+					<div class="three wide column">
+						<div class="ui center aligned segment">
+							<div class="ui header"><div class="content">Choose the major</div></div>
+							<p><select class="dropdown" id="major-select"></select></p>
+							<div class="ui horizontal divider">or</div>
+							<p><div class="ui teal button" onClick="majorRandom()">Random major</div></p>
+						</div>		
+					</div>
+				</div>
 			</div>
-		</div>
-		<div class="ui horizontal divider">Cross-major comparision</div>
-		<div class="centered row">
-			<div id="chart-cross-majors"></div>
-		</div>
+			
+		</section>
+		<section>
+			<div class="ui grid">
+				<div class="ui horizontal divider">Cross-major comparision</div>
+				<div class="centered row">
+					<div id="chart-cross-majors"></div>
+				</div>
+			</div>
+			
+		</section>
+		
 	</div>
 </body>
