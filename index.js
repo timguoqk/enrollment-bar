@@ -36,10 +36,10 @@ function plotChartMajor(key) {
 	yAxis = d3.svg.axis().scale(y).orient("left");
 
 	svg = d3.select("#chart-major").append("svg")
-	    .attr("width", width + margin.left + margin.right)
-	    .attr("height", height + margin.top + margin.bottom)
-	  .append("g")
-	    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+			.attr("width", width + margin.left + margin.right)
+			.attr("height", height + margin.top + margin.bottom)
+		.append("g")
+			.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
 	var tip = d3.tip()
 							.attr("class", "tooltip")
@@ -49,36 +49,36 @@ function plotChartMajor(key) {
 							});
 	svg.call(tip);
 
-  svg.append("g")
-      .attr("class", "x axis")
-      .attr("transform", "translate(0," + height + ")")
-      .call(xAxis);
+	svg.append("g")
+			.attr("class", "x axis")
+			.attr("transform", "translate(0," + height + ")")
+			.call(xAxis);
 
-  svg.append("g")
-      .attr("class", "y axis")
-      .call(yAxis)
-    .append("text")
-      .attr("transform", "rotate(-90)")
-      .attr("y", 6)
-      .attr("dy", ".71em")
-      .style("text-anchor", "end")
-      .text("Students");
-  svg.selectAll(".bar")
-      .data(keys)
-    .enter().append("rect")
-      .attr("class", "bar")
-      .attr("x", function(d) { 
-      	return x(d); 
-      })
-      .attr("width", x.rangeBand())
-      .attr("y", function(d) { return y(data[d]); })
-      .attr("height", function(d) { return height - y(data[d]);})
-      .attr("fill", function(d) {
-      	return "hsla(177,100%," + colorScale(data[d]) + "%,1)";
-      	//return randomColor({luminosity: 'light'});
-      })
-      .on("mouseover", tip.show)
-      .on("mouseout", tip.hide);
+	svg.append("g")
+			.attr("class", "y axis")
+			.call(yAxis)
+		.append("text")
+			.attr("transform", "rotate(-90)")
+			.attr("y", 6)
+			.attr("dy", ".71em")
+			.style("text-anchor", "end")
+			.text("Students");
+	svg.selectAll(".bar")
+			.data(keys)
+		.enter().append("rect")
+			.attr("class", "bar")
+			.attr("x", function(d) { 
+				return x(d); 
+			})
+			.attr("width", x.rangeBand())
+			.attr("y", function(d) { return y(data[d]); })
+			.attr("height", function(d) { return height - y(data[d]);})
+			.attr("fill", function(d) {
+				return "hsla(177,100%," + colorScale(data[d]) + "%,1)";
+				//return randomColor({luminosity: 'light'});
+			})
+			.on("mouseover", tip.show)
+			.on("mouseout", tip.hide);
 }
 
 function majorRandom() {
@@ -94,13 +94,13 @@ function majorChangeTo(key) {
 	var transition = svg.transition().duration(400);  // TODO: customize delay
 	transition.selectAll(".bar")
 						.attr("y", function(d) { return y(data[d]); })
-      			.attr("height", function(d) { return height - y(data[d]);})
-      			.attr("fill", function(d) {
-      				return "hsla(177,100%," + colorScale(data[d]) + "%,1)";
-      				//return randomColor({luminosity: 'light'});
-      			});
-  svg.select(".y.axis")
-  		.transition().duration(400)
+						.attr("height", function(d) { return height - y(data[d]);})
+						.attr("fill", function(d) {
+							return "hsla(177,100%," + colorScale(data[d]) + "%,1)";
+							//return randomColor({luminosity: 'light'});
+						});
+	svg.select(".y.axis")
+			.transition().duration(400)
 			.ease("sin-in-out") 
 			.call(yAxis);
 }
@@ -109,17 +109,18 @@ function plotChartCrossMajor() {
 	// Get only the total number
 	var num = _.map(rawData, function(val, key){ return val['Total Campus']; });
 
-	var x = d3.scale.ordinal().rangeRoundBands([0, width], .1).domain(majors);
-	var y = d3.scale.linear().range([height, 0]).domain([3, 1898]);
+	// TODO: offset correctly
+	var x = d3.scale.ordinal().rangeBands([0, width]).domain(majors);
+	var y = d3.scale.linear().range([height, 0]).domain([0, 1898]);
 	var colorScale = d3.scale.linear().range([45, 15]).domain([0, 1898]);
 	var xAxis = d3.svg.axis().scale(x).orient("bottom");
 	var yAxis = d3.svg.axis().scale(y).orient("left");
 
 	var crossMajorSvg = d3.select("#chart-cross-majors").append("svg")
-	    									.attr("width", width + margin.left + margin.right)
-										    .attr("height", height + margin.top + margin.bottom)
-										  .append("g")
-										    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+												.attr("width", width + margin.left + margin.right)
+												.attr("height", height + margin.top + margin.bottom)
+											.append("g")
+												.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
 	var tip = d3.tip()
 							.attr("class", "tooltip")
@@ -129,36 +130,31 @@ function plotChartCrossMajor() {
 							});
 	crossMajorSvg.call(tip);
 
-  // crossMajorSvg.append("g")
-		// 		      .attr("class", "x axis")
-		// 		      .attr("transform", "translate(0," + height + ")")
-		// 		      .call(xAxis);
+	crossMajorSvg.append("g")
+							.attr("class", "y axis")
+							.call(yAxis)
+						.append("text")
+							.attr("transform", "rotate(-90)")
+							.attr("y", 6)
+							.attr("dy", ".71em")
+							.style("text-anchor", "end")
+							.text("Total Students");
 
-  crossMajorSvg.append("g")
-				      .attr("class", "y axis")
-				      .call(yAxis)
-				    .append("text")
-				      .attr("transform", "rotate(-90)")
-				      .attr("y", 6)
-				      .attr("dy", ".71em")
-				      .style("text-anchor", "end")
-				      .text("Total Students");
-
-  crossMajorSvg.selectAll(".bar")
-				      .data(majors)
-				    .enter().append("rect")
-				      .attr("class", "bar")
-				      .attr("x", function(d) { 
-				      	return x(d); 
-				      })
-				      .attr("width", x.rangeBand())
-				      .attr("y", function(d) { 
-				      	return y(rawData[d]['Total Campus']); })
-				      .attr("height", function(d) { 
-				      	return height - y(rawData[d]['Total Campus']); })
-				      .attr("fill", function(d) {
-				      	return "hsla(177,100%," + colorScale(rawData[d]['Total Campus']) + "%,1)";
-				      })
-				      .on("mouseover", tip.show)
-				      .on("mouseout", tip.hide);
+	crossMajorSvg.selectAll(".bar")
+							.data(majors)
+						.enter().append("rect")
+							.attr("class", "bar")
+							.attr("x", function(d) { 
+								return x(d); 
+							})
+							.attr("width", x.rangeBand())
+							.attr("y", function(d) { 
+								return y(rawData[d]['Total Campus']); })
+							.attr("height", function(d) { 
+								return height - y(rawData[d]['Total Campus']); })
+							.attr("fill", function(d) {
+								return "hsla(177,100%," + colorScale(rawData[d]['Total Campus']) + "%,1)";
+							})
+							.on("mouseover", tip.show)
+							.on("mouseout", tip.hide);
 }
