@@ -17,7 +17,7 @@ $(function() {
 	$.getJSON('ucla_enrollment.json', function(data) {
 			rawData = data;
 			dict = []
-			majors = _.keys(rawData);
+			majors = _.sortBy(_.keys(rawData), function(key) {return key});
 			sortedMajors = _.sortBy(majors, function(key){ return rawData[key]['Total Campus']});
 			for (i = 0; i < majors.length; i ++)
 				dict.push({id:majors[i], text:majors[i]});
@@ -51,9 +51,8 @@ function plotChartMajor(key) {
 
 	var tip = d3.tip()
 							.attr("class", "tooltip")
-							.offset([-10, 0])
 							.html(function(d) {
-								return "<span>" + data[d] + "</span>";
+								return "<div class='ui pointing below label'>" + data[d] + "</div>";
 							});
 	svg.call(tip);
 
@@ -128,7 +127,7 @@ function plotChartCrossMajor() {
 							.attr("class", "tooltip")
 							.offset([-10, 0])
 							.html(function(d) {
-								return "<span class=\"tooltip\">" + d + ": " + rawData[d]['Total Campus'] + "</span>";
+								return "<div class='ui pointing below label'>" + d + ": " + rawData[d]['Total Campus'] + "</div>";
 							});
 	crossMajorSvg.call(tip);
 
@@ -167,20 +166,18 @@ function plotChartCrossMajor() {
 	$("input[name='sort-checkbox']").on("change", changeCross);
 	function changeCross() {
 		var transition = crossMajorSvg.transition().duration(1500);
-		var targetData;
-		if ($("input[name='sort-checkbox']").prop("checked")) {
-			// sorted
-			console.log(x);
+		if ($("input[name='sort-checkbox']").prop("checked"))
 			x.domain(sortedMajors);
-		}
-		else {
-			// back to unsorted
+		else
 			x.domain(majors);
-		}
 		transition.selectAll(".bar")
 							.attr("x", function(d) { 
 								return x(d); 
-							});
+							})
+							.attr("y", function(d) { 
+								return y(rawData[d]['Total Campus']); })
+							.attr("height", function(d) { 
+								return height - y(rawData[d]['Total Campus']); });
 		// WARNING: There's no x axis yet
 		transition.select(".x.axis")
 							.ease("sin-in-out")
