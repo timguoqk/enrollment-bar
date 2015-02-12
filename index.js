@@ -1,5 +1,5 @@
 var rawData, data, ev;
-var majors, keys = ["Graduate Total", "Professional Practice", "Interns and Residents", "Professional Masters", "Academic Masters", "Undergraduate", "Doctorate", "Total Campus"];
+var majors, sortedMajors, keys = ["Graduate Total", "Professional Practice", "Interns and Residents", "Professional Masters", "Academic Masters", "Undergraduate", "Doctorate", "Total Campus"];
 var svg, x, y, colorScale, xAxis, yAxis;
 var margin = {top: 20, right: 30, bottom: 30, left: 40};
 var width = 900 - margin.left - margin.right;
@@ -7,6 +7,7 @@ var height = 400 - margin.top - margin.bottom;
 var crossMajorPlotted = false;
 
 $(function() {
+	$('.ui.checkbox').checkbox();
 	$('#main-container').onepage_scroll({beforeMove: function(index) {
 		if (index == 2 && !crossMajorPlotted) {
 			crossMajorPlotted = true;
@@ -17,6 +18,7 @@ $(function() {
 			rawData = data;
 			dict = []
 			majors = _.keys(rawData);
+			sortedMajors = _.sortBy(majors, function(key){ return rawData[key]['Total Campus']});
 			for (i = 0; i < majors.length; i ++)
 				dict.push({id:majors[i], text:majors[i]});
 			dict = _.sortBy(dict, function(x) { return x.id; });
@@ -94,7 +96,6 @@ function majorRandom() {
 function majorChangeTo(key) {
 	$('#major-title').text(key);
 	data = rawData[key];
-	// http://bl.ocks.org/mbostock/3885705
 	y.domain([0, d3.max(_.values(data))])
 	var transition = svg.transition().duration(400);  // TODO: customize delay
 	transition.selectAll(".bar")
@@ -102,7 +103,6 @@ function majorChangeTo(key) {
 						.attr("height", function(d) { return height - y(data[d]);})
 						.attr("fill", function(d) {
 							return "hsla(177,100%," + colorScale(data[d]) + "%,1)";
-							//return randomColor({luminosity: 'light'});
 						});
 	svg.select(".y.axis")
 			.transition().duration(400)
@@ -111,9 +111,6 @@ function majorChangeTo(key) {
 }
 
 function plotChartCrossMajor() {
-	// Get only the total number
-	var num = _.map(rawData, function(val, key){ return val['Total Campus']; });
-
 	// TODO: offset correctly
 	var x = d3.scale.ordinal().rangeBands([0, width]).domain(majors);
 	var y = d3.scale.linear().range([height, 0]).domain([0, 1898]);
@@ -167,4 +164,26 @@ function plotChartCrossMajor() {
 						.attr("fill", function(d) {
 							return "hsla(177,100%," + colorScale(rawData[d]['Total Campus']) + "%,1)";
 						});
+	$("input[name='sort-checkbox']").on("change", changeCross);
+	function changeCross() {
+		var transition = crossMajorSvg.transition().duration(1500);
+		var targetData;
+		if ($("input[name='sort-checkbox']").prop("checked")) {
+			// sorted
+			console.log(x);
+			x.domain(sortedMajors);
+		}
+		else {
+			// back to unsorted
+			x.domain(majors);
+		}
+		transition.selectAll(".bar")
+							.attr("x", function(d) { 
+								return x(d); 
+							});
+		// WARNING: There's no x axis yet
+		transition.select(".x.axis")
+							.ease("sin-in-out")
+							.call(xAxis);
+	}
 }
