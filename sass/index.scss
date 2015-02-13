@@ -1,0 +1,37 @@
+#chart .bar {
+
+}
+
+.tooltip {
+	
+}
+
+h1 {
+	margin-left: 20px;
+}
+
+.x.axis text {
+  font-size: 10px;
+}
+.y.axis text {
+  font-size: 12px;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: none;
+}
+
+#major-select {
+	width: 100%;
+}
+
+.select2-selection {
+	overflow: hidden;
+}

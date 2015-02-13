@@ -1,0 +1,37 @@
+/* line 9, ../sass/index.scss */
+h1 {
+  margin-left: 20px;
+}
+
+/* line 13, ../sass/index.scss */
+.x.axis text {
+  font-size: 10px;
+}
+
+/* line 16, ../sass/index.scss */
+.y.axis text {
+  font-size: 12px;
+}
+
+/* line 20, ../sass/index.scss */
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+/* line 27, ../sass/index.scss */
+.x.axis path {
+  display: none;
+}
+
+/* line 31, ../sass/index.scss */
+#major-select {
+  width: 100%;
+}
+
+/* line 35, ../sass/index.scss */
+.select2-selection {
+  overflow: hidden;
+}
