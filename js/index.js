@@ -6,33 +6,6 @@ var width = 900 - margin.left - margin.right;
 var height = 400 - margin.top - margin.bottom;
 var crossMajorPlotted = false;
 
-$(function() {
-	$('.ui.checkbox').checkbox();
-	$('#main-container').onepage_scroll({beforeMove: function(index) {
-		if (index == 2 && !crossMajorPlotted) {
-			crossMajorPlotted = true;
-			plotChartCrossMajor();
-		}
-	}});
-	$.getJSON('ucla_enrollment.json', function(data) {
-		rawData = data;
-		dict = []
-		majors = _.sortBy(_.keys(rawData), function(key) {return key});
-		sortedMajors = _.sortBy(majors, function(key){ return rawData[key]['Total Campus']});
-		for (i = 0; i < majors.length; i ++)
-			dict.push({id: majors[i], text: majors[i]});
-		dict = _.sortBy(dict, function(x) { return x.id; });
-		$("select#major-select").select2({data: dict});
-		$("select#major-select").on("select2:select", function(e) { majorChangeTo(e.params.data.id);} );
-
-		x = d3.scale.ordinal().rangeRoundBands([0, width], .1).domain(keys);
-		y = d3.scale.linear().range([height, 0]);
-		colorScale = d3.scale.linear().range([45, 15]).domain([0, 1898]);
-
-		plotChartMajor('Aerospace Engineering');
-	});
-});
-
 function plotChartMajor(key) {
 
 	data = rawData[key];
@@ -169,13 +142,39 @@ function plotChartCrossMajor() {
 			x.domain(sortedMajors);
 		else
 			x.domain(majors);
+
 		transition.selectAll(".bar")
-					.attr("x", function(d) { 
-						return x(d); 
-					})
+					.attr("x", function(d) { return x(d); })
 					.attr("y", function(d) { 
 						return y(rawData[d]['Total Campus']); })
 					.attr("height", function(d) { 
 						return height - y(rawData[d]['Total Campus']); });
 	});
 }
+
+$(function() {
+	$('.ui.checkbox').checkbox();
+	$('#main-container').onepage_scroll({beforeMove: function(index) {
+		if (index == 2 && !crossMajorPlotted) {
+			crossMajorPlotted = true;
+			plotChartCrossMajor();
+		}
+	}});
+	$.getJSON('ucla_enrollment.json', function(data) {
+		rawData = data;
+		dict = []
+		majors = _.sortBy(_.keys(rawData), function(key) { return key; });
+		sortedMajors = _.sortBy(majors, function(key) { return rawData[key]['Total Campus']});
+		for (i = 0; i < majors.length; i ++)
+			dict.push({id: majors[i], text: majors[i]});
+		dict = _.sortBy(dict, function(x) { return x.id; });
+		$("select#major-select").select2({data: dict});
+		$("select#major-select").on("select2:select", function(e) { majorChangeTo(e.params.data.id);});
+
+		x = d3.scale.ordinal().rangeRoundBands([0, width], .1).domain(keys);
+		y = d3.scale.linear().range([height, 0]);
+		colorScale = d3.scale.linear().range([45, 15]).domain([0, 1898]);
+
+		plotChartMajor('Aerospace Engineering');
+	});
+});
